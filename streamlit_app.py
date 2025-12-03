@@ -137,13 +137,13 @@ def apply_palette_css(palette):
 
     /* App name in top-left corner of the header */
     .stApp > header::before, header::before, .css-18e3th9::before {{
-        content: "House Price Predictor";
+        content: "WillowWorth";
         position: absolute;
         left: 16px;
         top: 8px;
-        font-weight: 1000;
+        font-weight: 700;
         color: var(--primary-text);
-        font-size: 16px;
+        font-size: 28px;
         z-index: 9999;
     }}
 
